@@ -1,12 +1,10 @@
-import { StrictMode } from "react";
-import { createRoot } from "react-dom/client";
 import { ArrowUpRight, Check, ChevronRight, CircleCheck, GitBranch, HeartHandshake, Keyboard, ScanSearch, Sparkles, UsersRound } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import "./styles.css";
 
-function App() {
+export function LandingPage() {
   return (
     <div className="site-shell">
       <header className="site-header">
@@ -94,9 +92,3 @@ function App() {
     </div>
   );
 }
-
-createRoot(document.getElementById("root")!).render(
-  <StrictMode>
-    <App />
-  </StrictMode>,
-);

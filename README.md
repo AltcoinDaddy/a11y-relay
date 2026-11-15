@@ -40,7 +40,7 @@ A11y Relay is an early-stage, pre-launch project. The current repository contain
 
 ```text
 apps/
-  frontend/    Vite, React, TypeScript, Tailwind CSS, and shadcn/ui
+  frontend/    TanStack Start, React, TypeScript, Tailwind CSS, and shadcn/ui
   backend/     Express and TypeScript API scaffold
 ```
 

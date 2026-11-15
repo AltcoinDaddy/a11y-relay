@@ -4,7 +4,7 @@
 
 A11y Relay is a minimal Turborepo with separate frontend and backend apps.
 
-- `apps/frontend`: Vite, React, and TypeScript
+- `apps/frontend`: TanStack Start, React, and TypeScript
 - `apps/backend`: Express and TypeScript
 
 ## Development commands
